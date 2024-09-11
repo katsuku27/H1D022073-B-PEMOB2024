@@ -30,8 +30,6 @@ class Fibonacci {
 
 void main() {
   var fib = Fibonacci();
-  print('Fibonacci ke-10: ${fib.calculate(10)}');
-  print('Fibonacci ke-50: ${fib.calculate(50)}');
   print('\nDeret Fibonacci (20 angka pertama):');
   fib.printFibonacciSequence(20);
 }
